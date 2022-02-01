@@ -77,3 +77,59 @@ print(word.find('l'))
 print(word.rfind('l'))
 
 # zapisać sobie w notesiku pytania do lekcji, i potem zadać je.
+
+# [21:28] Соморов Андрей Анатольевич
+# # Задание 4
+# # Пользователь вводит с клавиатуры числа. Программа должна подсчитывать сумму, максимум
+# # и минимум, введенных чисел. Когда пользователь вводит число 7 программа прекращает
+# # свою работу и выводит на экран надпись «Good bye!»
+# a = int(input('введите число -'))
+# mn = a
+# mx = a
+# c = 0
+# while a != 7:
+#     c = c + a
+#     if a > mx:
+#         mx = a
+#     elif a < mn:
+#         mn = a
+#     elif a == 7:
+#         print('Good bye!')
+#         break
+#     a = int(input('введите число -'))
+# print('максимум =', mx)
+# print('минимум =', mn)
+# print('сумма чисел равна:', c)
+
+
+# [21:34] Черняк Александр Игоревич
+# maxn = 0
+# minn = 0
+# x = int(input("Enter the Number  "))
+#
+# sum = 0
+# while x != 7:
+#     if x == 7:
+#         print("Good bye!")
+#     sum = sum + x
+#     if x > maxn:
+#         maxn = x
+#     elif x < minn:
+#         minn = x
+#     x = int(input("Enter the Number, or 7 to stop  "))
+# print(maxn, minn, sum,"Max, Min, Sum")
+#
+#  like 1
+
+# Санатарчук Анастасия Игоревна21:22
+# 3 razy zadania w obrazkach
+
+number = 123456
+str_number = 'aaa' + str(number) + 'qqq'
+print(str_number)
+
+# [21:42] Ковалёв Виктор Александрович
+# Вопрос об автоматизации.когда реально будет устроится на qaautomatization?
+# берут ли джунов в автоматизацию?
+# если нет,где набраться опыта и как всё не забыть до того момента?)
+
