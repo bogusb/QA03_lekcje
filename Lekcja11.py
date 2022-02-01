@@ -46,7 +46,24 @@
 # else:
 #     print('NO')
 
-
+# # [27.01.2022 19: 27] Barszcz Boguslaw
+# # zad. 4.
+# # Дано натуральное число. Требуется определить, является ли год с данным номером високосным.
+# # Если год является високосным, то выведите YES, иначе выведите NO.
+# # Напомним, что в соответствии с григорианским календарем, год является високосным,
+# # если его номер кратен 4, но не кратен 100, а также если он кратен 400.
+#
+# year = 1700  # int(input("Enter any year (> 1582) : "))
+# if year % 4 == 0:
+#     if year % 100 == 0:
+#         if year % 400 == 0:
+#             print('YES')
+#         else:
+#             print('NO')
+#     else:
+#         print('YES')
+# else:
+#     print('NO')
 
 # --------------------------------------------
 # kamień        rock [r]
@@ -133,20 +150,20 @@
 # game_type = pvp person vs person    pve person vs boot
 #
 
-# [19:39] Буйлук Андрей
-#Variables
-player1_score = 0
-player2_score = 0
-player1_choice = ''
-player2_choice = ''
-rounds = 3
-#Start of game
-for i in range(1,rounds+1):
-    #Enter data
-    while player1_choice != 'r' and player1_choice != 'p' and player1_choice != 's':
-        player1_choice = str(input("Enter your choice player 1: [r],[p],[s] : "))#r
-        print(player1_choice)
-        #    player2_choice = str(input("Enter your choice player 2: [r],[p],[s] : "))#p
+# # [19:39] Буйлук Андрей
+# #Variables
+# player1_score = 0
+# player2_score = 0
+# player1_choice = ''
+# player2_choice = ''
+# rounds = 3
+# #Start of game
+# for i in range(1,rounds+1):
+#     #Enter data
+#     while player1_choice != 'r' and player1_choice != 'p' and player1_choice != 's':
+#         player1_choice = str(input("Enter your choice player 1: [r],[p],[s] : "))#r
+#         print(player1_choice)
+#         #    player2_choice = str(input("Enter your choice player 2: [r],[p],[s] : "))#p
     #Compare data
     # if player1_choice == 'r':
     #     if player2_choice == 's':
